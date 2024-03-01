@@ -1,0 +1,98 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.fixed-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Custom Variable */
+:root {
+    --primary-color: #FF5400;
+}
+
+
+
+/* Header Section */
+/* Nav Section */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo>img {
+    width: 48px;
+}
+
+#name {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#voyages {
+    color: var(--primary-color);
+}
+
+
+.hero {
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.hero>li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.hero > i{
+    margin-top: 10px;
+    display: none;
+    font-size: 25px;
+}
+
+.hero a {
+    color:#424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li:first-child a{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+/* Smaller Device Responsive */
+
+@media screen and (max-width: 600px) {
+    .nav{
+        padding: 20px;
+        margin: 20px auto;
+    }
+    .hero > li{
+        display: none;
+    }
+    .hero > i {
+        display: block;
+    }
+}
