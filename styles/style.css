@@ -371,6 +371,112 @@ li:first-child a {
 }
 
 
+/* Deals And Discounts */
+
+.deals {
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.deal-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.deal-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+.deal-items {}
+
+.deal-bg {
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+#deal-2 {
+    background-image: url(../Images/Group\ 40.png);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+
+/* Deal card */
+.deal-card {
+    position: relative;
+    left: 420px;
+    top: 65px;
+    padding: 50px;
+    max-width: 580px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+
+#deal-2-card {
+    position: relative;
+    left: 50px;
+    top: 65px;
+    padding: 50px;
+    max-width: 580px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+
+.deal-plan {
+    display: flex;
+    gap: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.deal-plan i {
+    color: var(--primary-color);
+}
+
+.deal-card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.deal-card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.deal-price {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
 /* <!-- Newsletter section --> */
 .newsletter {
     display: flex;
@@ -476,20 +582,22 @@ li:first-child a {
     padding: 100px;
 }
 
-.foot > .f-logo{
+.foot>.f-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
-.f-logo > img{
+
+.f-logo>img {
     width: 48px;
 }
-.foot{
+
+.foot {
     text-align: center;
 }
 
-.foot-icon{
+.foot-icon {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -498,7 +606,7 @@ li:first-child a {
     margin: 50px auto;
 }
 
-.foot hr{
+.foot hr {
     color: #131318;
     height: 1px;
     margin: 30px auto;
@@ -614,6 +722,52 @@ li:first-child a {
     }
 
 
+    /* Deal card */
+    .deal-title {
+        font-size: 20px;
+    }
+
+    .deal-description {
+        font-size: 14px;
+    }
+
+    .deal-card {
+        left: 20px;
+        top: 110px;
+        padding: 20px;
+        max-width: 300px;
+
+    }
+    #deal-2-card{
+        left: 20px;
+        top: 110px;
+        padding: 20px;
+        max-width: 300px;
+    }
+
+    .deal-plan {
+        flex-wrap: wrap;
+    }
+
+    .deal-card-title {
+        font-size: 20px;
+    }
+
+
+    .deal-card-description {
+        font-size: 14px;
+    }
+
+    .deal-price {
+        font-size: 16px;
+    }
+
+    .deals .btn-primary {
+        font-size: 18px;
+        padding: 10px;
+        font-weight: 500;
+    }
+
     /* Newsletter section */
 
     .newsletter {
@@ -637,7 +791,7 @@ li:first-child a {
 
 
     /* Footer */
-    .footer{
+    .footer {
         padding: 60px 20px;
     }
 
