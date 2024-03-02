@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 15px 30px;
     background-color: var(--primary-color);
     color: white;
@@ -24,14 +24,15 @@ body {
 }
 
 
-img{
+img {
     width: 100%;
+    height: 100%;
 }
 
 /* Custom Variable */
 :root {
     --primary-color: #FF5400;
-    --secondary-color:rgba(19, 19, 24, 0.70);
+    --secondary-color: rgba(19, 19, 24, 0.70);
 }
 
 
@@ -99,19 +100,20 @@ li:first-child a {
 
 
 /* Banner Section */
-.banner{
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png) ;
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png);
     background-repeat: no-repeat;
     border-radius: 18px;
 }
 
 
-.banner-container{
+.banner-container {
     max-width: 850px;
     margin: 0 auto;
     padding: 102px;
     text-align: center;
 }
+
 .banner-title {
     font-size: 4rem;
     font-weight: 800;
@@ -119,31 +121,33 @@ li:first-child a {
     margin-bottom: 25px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 1rem;
     font-weight: 400;
     color: white;
     margin-bottom: 60px;
 }
 
-.table-content{
+.table-content {
     display: flex;
     justify-content: space-around;
 }
 
 
 
-.select-place{
+.select-place {
     padding: 20px 10px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30); 
+    background: rgba(255, 255, 255, 0.30);
 }
 
-.banner button{
+.banner button {
     font-weight: 700;
 }
 
-#place, #time, #travel-type{
+#place,
+#time,
+#travel-type {
     padding: 15px 25px;
     border: 1px solid white;
     border-radius: 8px;
@@ -152,59 +156,219 @@ li:first-child a {
     color: var(--secondary-color);
 }
 
-#place:focus{
+#place:focus {
     outline: 0;
     border: 1px solid var(--primary-color);
 }
 
-#time:focus{
+#time:focus {
     outline: 0;
     border: 1px solid var(--primary-color);
 }
 
-#travel-type:focus{
+#travel-type:focus {
     outline: 0;
     border: 1px solid var(--primary-color);
 }
 
 
 /* Popular Tours */
-.tours{
+.tours {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 100px auto;
 }
 
-.tour-caption{
+.tour-caption {
     width: 50%;
 }
 
-.tours > image{
+.tours>image {
     width: 50%;
 }
-.tour-title{
+
+.tour-title {
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 25px;
 }
 
 
-.tour-description{
+.tour-description {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 25px;
     color: var(--secondary-color);
 }
 
-.tour-caption ul{
+.tour-caption ul {
     margin-bottom: 25px;
 }
-.tour-caption li{
+
+.tour-caption li {
     margin-left: 30px;
     color: var(--secondary-color);
     margin-bottom: 15px;
 }
+
+
+
+
+/* Choose Your Destination section */
+
+.destination-container {
+    display: none;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+.destination-description {
+    width: 640px;
+    margin: 25px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.d-1-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.d-2-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.d-3-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* 
+#d-1{
+    grid-column: span 2;
+}
+
+#d-2{
+    grid-column: span 2;
+}
+
+#d-3{
+    grid-column: ;
+}
+
+#d-4{
+    grid-column: span 2;
+}
+
+#d-5{
+    grid-column: ;
+}
+
+#d-6{
+    grid-column: ;
+}
+
+#d-7{
+    grid-column: span 3;
+}
+ */
+
+
+
+/* Why Choose Us */
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 650px;
+    margin: 25px auto;
+}
+
+.c-title {
+    margin: 10px auto;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.c-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+
+#c-card-1 {
+    grid-column: span 2;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#c-card-2 {
+    grid-column: span 2;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#c-card-3 {
+    grid-column-start: 2 ;
+    grid-column-end: 4;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.c-card {
+    padding: 30px;
+    border: 1px solid red;
+}
+
+
+.choose-card img {
+    width: 65px;
+    height: auto;
+}
+
 
 
 
@@ -235,57 +399,78 @@ li:first-child a {
 
 
     /* Banner section */
-    .banner{
+    .banner {
         margin: auto 20px;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 25px;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 2rem;
     }
 
-    .banner-description{
+    .banner-description {
         font-size: .8rem;
         margin-bottom: 30px;
     }
 
-    .table-content{
+    .table-content {
         flex-direction: column;
         gap: 10px;
     }
 
-    .select-place{
+    .select-place {
         padding: 20px;
     }
 
 
     /* Popular Tours */
-    .tours{
+    .tours {
         flex-direction: column;
         gap: 30px;
-        margin-right:20px ;
+        margin-right: 20px;
         margin-left: 20px;
     }
 
-    .tour-caption{
-        width: 100%;
-    }
-    
-    .tours > image{
+    .tour-caption {
         width: 100%;
     }
 
-    .tour-title{
+    .tours>image {
+        width: 100%;
+    }
+
+    .tour-title {
         font-size: 1.5rem;
     }
 
-    .tour-description{
+    .tour-description {
         font-size: .9rem;
     }
-    .tour-caption li{
-       font-size: .9rem;
+
+    .tour-caption li {
+        font-size: .9rem;
+    }
+
+
+    /* Why Choose Us */
+    .choose-us{
+        margin: auto 20px;
+    }
+    .choose-card {
+        grid-template-columns: 1fr;
+    }
+    #c-card-1{
+        grid-column: auto;
+    }
+    #c-card-2{
+        grid-column: auto;
+    }
+    #c-card-3{
+        grid-column: auto;
     }
    
+
 }
