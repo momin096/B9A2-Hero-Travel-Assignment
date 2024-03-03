@@ -477,6 +477,59 @@ li:first-child a {
     margin-bottom: 25px;
 }
 
+
+
+
+/* A Simple Perfect Place To Get Lost */
+
+.perfect-place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 100px auto;
+}
+
+.perfect-caption {
+    width: 50%;
+}
+
+#perfect-video {
+    width: 50%;
+    /* height: 424px; */
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+
+.perfect-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.perfect-caption li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 10px;
+
+}
+
+.perfect-caption button {
+    margin-top: 20px;
+}
+
 /* <!-- Newsletter section --> */
 .newsletter {
     display: flex;
@@ -738,7 +791,8 @@ li:first-child a {
         max-width: 300px;
 
     }
-    #deal-2-card{
+
+    #deal-2-card {
         left: 20px;
         top: 110px;
         padding: 20px;
