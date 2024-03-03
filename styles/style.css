@@ -495,11 +495,26 @@ li:first-child a {
 }
 
 #perfect-video {
-    width: 50%;
-    /* height: 424px; */
+    width: 100%;
     border-radius: 16px;
     overflow: hidden;
 
+}
+
+.vid {
+    width: 50%;
+    position: relative;
+}
+
+.vid h4 {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 138px);
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .perfect-title {
@@ -821,6 +836,56 @@ li:first-child a {
         padding: 10px;
         font-weight: 500;
     }
+
+
+
+    /* A Simple Perfect Place To Get Lost  */
+
+    .perfect-place {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .perfect-caption {
+        width: 100%;
+    }
+
+    .vid {
+        width: 100%;
+    }
+
+    #perfect-video {
+        width: 100%;
+    }
+
+    .perfect-title{
+        font-size: 20px;
+    }
+
+    .perfect-description{
+        font-size: 14px;
+    }
+
+    .perftct-caption li{
+        font-size: 14px;
+    }
+
+    .perfect-caption button {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .vid h4 {
+        top: calc(50% - 30px);
+        left: calc(50% - 138px);
+        width: 276px;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    
 
     /* Newsletter section */
 
